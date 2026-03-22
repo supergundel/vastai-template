@@ -296,6 +296,18 @@ process_list "$COMFY_DIR/models/embeddings"     "${EMBEDDINGS[@]+"${EMBEDDINGS[@
 
 echo "    ✓ Downloads fertig"
 
+pip install jupyterlab -q
+
+nohup jupyter lab \
+    --ip=0.0.0.0 \
+    --port=8888 \
+    --no-browser \
+    --allow-root \
+    --NotebookApp.token='' \
+    --NotebookApp.password='' \
+    > /var/log/jupyter.log 2>&1 &
+
+echo "✓ JupyterLab läuft auf Port 8888"
 
 # =============================================================================
 # COMFYUI STARTEN
