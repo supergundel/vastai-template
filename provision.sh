@@ -30,24 +30,24 @@ echo "========================================"
 
 # Checkpoints  →  ComfyUI/models/checkpoints/
 CHECKPOINTS=(
-    # Beispiele (auskommentiert):
-    # "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
-    # "https://civitai.com/api/download/models/128713 realisticVisionV60.safetensors"
+    "https://huggingface.co/Phr00t/Qwen-Image-Edit-Rapid-AIO/blob/main/v23/Qwen-Rapid-AIO-NSFW-v23.safetensors"
 )
 
 # LoRAs  →  ComfyUI/models/loras/
 LORAS=(
-    # "https://civitai.com/api/download/models/XXXXX meine_lora.safetensors"
+    "https://huggingface.co/lightx2v/Wan2.2-Lightning/blob/main/Wan2.2-T2V-A14B-4steps-lora-rank64-Seko-V2.0/high_noise_model.safetensors"
+    "https://huggingface.co/lightx2v/Wan2.2-Lightning/blob/main/Wan2.2-T2V-A14B-4steps-lora-rank64-Seko-V2.0/low_noise_model.safetensors"
+    
 )
 
 # Text Encoder / CLIP  →  ComfyUI/models/clip/
 TEXT_ENCODERS=(
-    # "https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/pytorch_model.bin"
+    "https://huggingface.co/NSFW-API/NSFW-Wan-UMT5-XXL/blob/main/nsfw_wan_umt5-xxl_fp8_scaled.safetensors"
 )
 
 # VAE  →  ComfyUI/models/vae/
 VAE=(
-    # "https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors"
+    "https://huggingface.co/wangkanai/wan22-vae/blob/main/vae/wan/wan22-vae.safetensors"
 )
 
 # Upscale Models  →  ComfyUI/models/upscale_models/
@@ -62,7 +62,8 @@ CONTROLNET=(
 
 # UNET / Diffusion Models  →  ComfyUI/models/unet/
 UNET=(
-    # "https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/flux1-dev.safetensors"
+    "https://huggingface.co/BigDannyPt/Wan-2.2-Remix-GGUF/blob/main/I2V/v3.0/High/wan22RemixT2VI2V_i2vHighV30-Q8_0.gguf"
+    "https://huggingface.co/BigDannyPt/Wan-2.2-Remix-GGUF/blob/main/I2V/v3.0/Low/wan22RemixT2VI2V_i2vLowV30-Q8_0.gguf"
 )
 
 # Embeddings / Textual Inversions  →  ComfyUI/models/embeddings/
