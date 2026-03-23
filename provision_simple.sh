@@ -28,21 +28,21 @@ WORKFLOWS=(
 )
 
 CHECKPOINT_MODELS=(
-    "https://huggingface.co/Phr00t/Qwen-Image-Edit-Rapid-AIO/blob/main/v23/Qwen-Rapid-AIO-NSFW-v23.safetensors"
+    "https://huggingface.co/Phr00t/Qwen-Image-Edit-Rapid-AIO/resolve/main/v23/Qwen-Rapid-AIO-NSFW-v23.safetensors"
 )
 
 UNET_MODELS=(
-    "https://huggingface.co/BigDannyPt/Wan-2.2-Remix-GGUF/blob/main/I2V/v3.0/High/wan22RemixT2VI2V_i2vHighV30-Q8_0.gguf"
-    "https://huggingface.co/BigDannyPt/Wan-2.2-Remix-GGUF/blob/main/I2V/v3.0/Low/wan22RemixT2VI2V_i2vLowV30-Q8_0.gguf"   
+    "https://huggingface.co/BigDannyPt/Wan-2.2-Remix-GGUF/resolve/main/I2V/v3.0/High/wan22RemixT2VI2V_i2vHighV30-Q8_0.gguf"
+    "https://huggingface.co/BigDannyPt/Wan-2.2-Remix-GGUF/resolve/main/I2V/v3.0/Low/wan22RemixT2VI2V_i2vLowV30-Q8_0.gguf"   
 )
 
 LORA_MODELS=(
-    "https://huggingface.co/lightx2v/Wan2.2-Lightning/blob/main/Wan2.2-T2V-A14B-4steps-lora-rank64-Seko-V2.0/high_noise_model.safetensors"
-    "https://huggingface.co/lightx2v/Wan2.2-Lightning/blob/main/Wan2.2-T2V-A14B-4steps-lora-rank64-Seko-V2.0/low_noise_model.safetensors"       
+    "https://huggingface.co/lightx2v/Wan2.2-Lightning/resolve/main/Wan2.2-T2V-A14B-4steps-lora-rank64-Seko-V2.0/high_noise_model.safetensors"
+    "https://huggingface.co/lightx2v/Wan2.2-Lightning/resolve/main/Wan2.2-T2V-A14B-4steps-lora-rank64-Seko-V2.0/low_noise_model.safetensors"       
 )
 
 VAE_MODELS=(
-  "https://huggingface.co/wangkanai/wan22-vae/blob/main/vae/wan/wan22-vae.safetensors"
+  "https://huggingface.co/wangkanai/wan22-vae/resolve/main/vae/wan/wan22-vae.safetensors"
 )
 
 ESRGAN_MODELS=(
