@@ -42,7 +42,7 @@ LORA_MODELS=(
 )
 
 VAE_MODELS=(
-  "https://huggingface.co/wangkanai/wan22-vae/resolve/main/vae/wan/wan22-vae.safetensors"
+  "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors"
 )
 
 ESRGAN_MODELS=(
@@ -69,7 +69,7 @@ function provisioning_start() {
         "${COMFYUI_DIR}/models/unet" \
         "${UNET_MODELS[@]}"
     provisioning_get_files \
-        "${COMFYUI_DIR}/models/lora" \
+        "${COMFYUI_DIR}/models/loras" \
         "${LORA_MODELS[@]}"
     provisioning_get_files \
         "${COMFYUI_DIR}/models/controlnet" \
